@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B2FA72929A011C900D489D8 /* l_square_m0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA72829A011C900D489D8 /* l_square_m0.mp4 */; };
+		9B2FA72D29A01BD400D489D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2FA72B29A01BD400D489D8 /* AVFoundation.framework */; };
+		9B2FA72E29A01BD400D489D8 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2FA72C29A01BD400D489D8 /* AVKit.framework */; };
 		9BE1DB0A295BA3C800CC3C2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE1DB09295BA3C800CC3C2F /* AppDelegate.swift */; };
 		9BE1DB0C295BA3C800CC3C2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE1DB0B295BA3C800CC3C2F /* ViewController.swift */; };
 		9BE1DB0F295BA3C800CC3C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE1DB0D295BA3C800CC3C2F /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B2FA72829A011C900D489D8 /* l_square_m0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = l_square_m0.mp4; sourceTree = "<group>"; };
+		9B2FA72B29A01BD400D489D8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9B2FA72C29A01BD400D489D8 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		9BE1DB06295BA3C800CC3C2F /* Baba's Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baba's Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE1DB09295BA3C800CC3C2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BE1DB0B295BA3C800CC3C2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2FA72D29A01BD400D489D8 /* AVFoundation.framework in Frameworks */,
+				9B2FA72E29A01BD400D489D8 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B2FA72A29A01BD300D489D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B2FA72B29A01BD400D489D8 /* AVFoundation.framework */,
+				9B2FA72C29A01BD400D489D8 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9BE1DAFD295BA3C800CC3C2F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,7 @@
 				9BE1DB1D295BA3CA00CC3C2F /* Baba's MoviesTests */,
 				9BE1DB28295BA3CA00CC3C2F /* Baba's MoviesUITests */,
 				9BE1DB07295BA3C800CC3C2F /* Products */,
+				9B2FA72A29A01BD300D489D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +121,7 @@
 				9BE1DB10295BA3CA00CC3C2F /* Assets.xcassets */,
 				9BE1DB12295BA3CA00CC3C2F /* LaunchScreen.storyboard */,
 				9BE1DB15295BA3CA00CC3C2F /* Info.plist */,
+				9B2FA72829A011C900D489D8 /* l_square_m0.mp4 */,
 			);
 			path = "Baba's Movies";
 			sourceTree = "<group>";
@@ -231,6 +250,7 @@
 			files = (
 				9BE1DB14295BA3CA00CC3C2F /* LaunchScreen.storyboard in Resources */,
 				9BE1DB11295BA3CA00CC3C2F /* Assets.xcassets in Resources */,
+				9B2FA72929A011C900D489D8 /* l_square_m0.mp4 in Resources */,
 				9BE1DB0F295BA3C800CC3C2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
