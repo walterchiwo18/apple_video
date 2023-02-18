@@ -11,13 +11,20 @@ import AVKit
 import AVFoundation
 
 class ViewController: UIViewController {
+    
+    var videoController = AVPlayerViewController()
+    var player:AVPlayer?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
+        
     }
     
+    @IBAction func playShortAnimeBtn(_ sender: Any) {
+        
+        
+    }
     
 
 }
