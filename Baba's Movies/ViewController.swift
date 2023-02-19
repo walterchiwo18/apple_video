@@ -21,6 +21,9 @@ class ViewController: UIViewController {
         let videoString:String? = Bundle.main.path(forResource: "l_square_m0", ofType: ".mp4")
         if let url = videoString {
             let videoURL = NSURL(fileURLWithPath: url)
+            self.player = AVPlayer(url:videoURL as URL)
+            self.videoController.player = self.player
+        
             
         }
 
