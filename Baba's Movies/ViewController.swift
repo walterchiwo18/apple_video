@@ -23,7 +23,6 @@ class ViewController: UIViewController {
             let videoURL = NSURL(fileURLWithPath: url)
             self.player = AVPlayer(url:videoURL as URL)
             self.videoController.player = self.player
-        
             
         }
 
@@ -31,6 +30,7 @@ class ViewController: UIViewController {
     
     @IBAction func playShortAnimeBtn(_ sender: Any) {
         
+        self.present(self.videoController, animated: true, completion: {self.videoController.player?.play()})
         
     }
     
