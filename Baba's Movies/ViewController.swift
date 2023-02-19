@@ -18,7 +18,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        let videoString:String? = Bundle.main.path(forResource: "l_square_m0", ofType: ".mp4")
+        if let url = videoString {
+            let videoURL = NSURL(fileURLWithPath: url)
+            
+        }
+
     }
     
     @IBAction func playShortAnimeBtn(_ sender: Any) {
